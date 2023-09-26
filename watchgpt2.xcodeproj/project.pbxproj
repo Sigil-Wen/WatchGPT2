@@ -1,0 +1,1033 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA7E00A72AC3720300A262C0 /* GPT2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7E00A62AC3720300A262C0 /* GPT2.swift */; };
+		FAA523492AC36CF100BD7A70 /* watchgpt2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA523482AC36CF100BD7A70 /* watchgpt2App.swift */; };
+		FAA5234B2AC36CF100BD7A70 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5234A2AC36CF100BD7A70 /* ContentView.swift */; };
+		FAA5234D2AC36CF200BD7A70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA5234C2AC36CF200BD7A70 /* Assets.xcassets */; };
+		FAA523502AC36CF200BD7A70 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA5234F2AC36CF200BD7A70 /* Preview Assets.xcassets */; };
+		FAA5235A2AC36CF200BD7A70 /* watchgpt2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA523592AC36CF200BD7A70 /* watchgpt2Tests.swift */; };
+		FAA523642AC36CF200BD7A70 /* watchgpt2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA523632AC36CF200BD7A70 /* watchgpt2UITests.swift */; };
+		FAA523662AC36CF200BD7A70 /* watchgpt2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA523652AC36CF200BD7A70 /* watchgpt2UITestsLaunchTests.swift */; };
+		FAA5236C2AC36CF200BD7A70 /* watchgpt2 Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = FAA5236B2AC36CF200BD7A70 /* watchgpt2 Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FAA523712AC36CF200BD7A70 /* watchgpt2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA523702AC36CF200BD7A70 /* watchgpt2App.swift */; };
+		FAA523732AC36CF200BD7A70 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA523722AC36CF200BD7A70 /* ContentView.swift */; };
+		FAA523752AC36CF200BD7A70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA523742AC36CF200BD7A70 /* Assets.xcassets */; };
+		FAA523782AC36CF200BD7A70 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA523772AC36CF200BD7A70 /* Preview Assets.xcassets */; };
+		FAA523822AC36CF200BD7A70 /* watchgpt2_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA523812AC36CF200BD7A70 /* watchgpt2_Watch_AppTests.swift */; };
+		FAA5238C2AC36CF200BD7A70 /* watchgpt2_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5238B2AC36CF200BD7A70 /* watchgpt2_Watch_AppUITests.swift */; };
+		FAA5238E2AC36CF200BD7A70 /* watchgpt2_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5238D2AC36CF200BD7A70 /* watchgpt2_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAA523562AC36CF200BD7A70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAA5233D2AC36CF000BD7A70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAA523442AC36CF100BD7A70;
+			remoteInfo = watchgpt2;
+		};
+		FAA523602AC36CF200BD7A70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAA5233D2AC36CF000BD7A70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAA523442AC36CF100BD7A70;
+			remoteInfo = watchgpt2;
+		};
+		FAA5236D2AC36CF200BD7A70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAA5233D2AC36CF000BD7A70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAA5236A2AC36CF200BD7A70;
+			remoteInfo = "watchgpt2 Watch App";
+		};
+		FAA5237E2AC36CF200BD7A70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAA5233D2AC36CF000BD7A70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAA5236A2AC36CF200BD7A70;
+			remoteInfo = "watchgpt2 Watch App";
+		};
+		FAA523882AC36CF200BD7A70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAA5233D2AC36CF000BD7A70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAA5236A2AC36CF200BD7A70;
+			remoteInfo = "watchgpt2 Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FAA523942AC36CF200BD7A70 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				FAA5236C2AC36CF200BD7A70 /* watchgpt2 Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FA7E00A62AC3720300A262C0 /* GPT2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPT2.swift; sourceTree = "<group>"; };
+		FAA523452AC36CF100BD7A70 /* watchgpt2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = watchgpt2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA523482AC36CF100BD7A70 /* watchgpt2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watchgpt2App.swift; sourceTree = "<group>"; };
+		FAA5234A2AC36CF100BD7A70 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FAA5234C2AC36CF200BD7A70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAA5234F2AC36CF200BD7A70 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FAA523552AC36CF200BD7A70 /* watchgpt2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = watchgpt2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA523592AC36CF200BD7A70 /* watchgpt2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watchgpt2Tests.swift; sourceTree = "<group>"; };
+		FAA5235F2AC36CF200BD7A70 /* watchgpt2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = watchgpt2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA523632AC36CF200BD7A70 /* watchgpt2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watchgpt2UITests.swift; sourceTree = "<group>"; };
+		FAA523652AC36CF200BD7A70 /* watchgpt2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watchgpt2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FAA5236B2AC36CF200BD7A70 /* watchgpt2 Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "watchgpt2 Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA523702AC36CF200BD7A70 /* watchgpt2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watchgpt2App.swift; sourceTree = "<group>"; };
+		FAA523722AC36CF200BD7A70 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FAA523742AC36CF200BD7A70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAA523772AC36CF200BD7A70 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FAA5237D2AC36CF200BD7A70 /* watchgpt2 Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "watchgpt2 Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA523812AC36CF200BD7A70 /* watchgpt2_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watchgpt2_Watch_AppTests.swift; sourceTree = "<group>"; };
+		FAA523872AC36CF200BD7A70 /* watchgpt2 Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "watchgpt2 Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA5238B2AC36CF200BD7A70 /* watchgpt2_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watchgpt2_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		FAA5238D2AC36CF200BD7A70 /* watchgpt2_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watchgpt2_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAA523422AC36CF100BD7A70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA523522AC36CF200BD7A70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA5235C2AC36CF200BD7A70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA523682AC36CF200BD7A70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA5237A2AC36CF200BD7A70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA523842AC36CF200BD7A70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA7E00A52AC371EA00A262C0 /* GPT2 */ = {
+			isa = PBXGroup;
+			children = (
+				FA7E00A62AC3720300A262C0 /* GPT2.swift */,
+			);
+			path = GPT2;
+			sourceTree = "<group>";
+		};
+		FAA5233C2AC36CF000BD7A70 = {
+			isa = PBXGroup;
+			children = (
+				FAA523472AC36CF100BD7A70 /* watchgpt2 */,
+				FAA523582AC36CF200BD7A70 /* watchgpt2Tests */,
+				FAA523622AC36CF200BD7A70 /* watchgpt2UITests */,
+				FAA5236F2AC36CF200BD7A70 /* watchgpt2 Watch App */,
+				FAA523802AC36CF200BD7A70 /* watchgpt2 Watch AppTests */,
+				FAA5238A2AC36CF200BD7A70 /* watchgpt2 Watch AppUITests */,
+				FAA523462AC36CF100BD7A70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAA523462AC36CF100BD7A70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAA523452AC36CF100BD7A70 /* watchgpt2.app */,
+				FAA523552AC36CF200BD7A70 /* watchgpt2Tests.xctest */,
+				FAA5235F2AC36CF200BD7A70 /* watchgpt2UITests.xctest */,
+				FAA5236B2AC36CF200BD7A70 /* watchgpt2 Watch App.app */,
+				FAA5237D2AC36CF200BD7A70 /* watchgpt2 Watch AppTests.xctest */,
+				FAA523872AC36CF200BD7A70 /* watchgpt2 Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAA523472AC36CF100BD7A70 /* watchgpt2 */ = {
+			isa = PBXGroup;
+			children = (
+				FAA523482AC36CF100BD7A70 /* watchgpt2App.swift */,
+				FAA5234A2AC36CF100BD7A70 /* ContentView.swift */,
+				FA7E00A52AC371EA00A262C0 /* GPT2 */,
+				FAA5234C2AC36CF200BD7A70 /* Assets.xcassets */,
+				FAA5234E2AC36CF200BD7A70 /* Preview Content */,
+			);
+			path = watchgpt2;
+			sourceTree = "<group>";
+		};
+		FAA5234E2AC36CF200BD7A70 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FAA5234F2AC36CF200BD7A70 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FAA523582AC36CF200BD7A70 /* watchgpt2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FAA523592AC36CF200BD7A70 /* watchgpt2Tests.swift */,
+			);
+			path = watchgpt2Tests;
+			sourceTree = "<group>";
+		};
+		FAA523622AC36CF200BD7A70 /* watchgpt2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAA523632AC36CF200BD7A70 /* watchgpt2UITests.swift */,
+				FAA523652AC36CF200BD7A70 /* watchgpt2UITestsLaunchTests.swift */,
+			);
+			path = watchgpt2UITests;
+			sourceTree = "<group>";
+		};
+		FAA5236F2AC36CF200BD7A70 /* watchgpt2 Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				FAA523702AC36CF200BD7A70 /* watchgpt2App.swift */,
+				FAA523722AC36CF200BD7A70 /* ContentView.swift */,
+				FAA523742AC36CF200BD7A70 /* Assets.xcassets */,
+				FAA523762AC36CF200BD7A70 /* Preview Content */,
+			);
+			path = "watchgpt2 Watch App";
+			sourceTree = "<group>";
+		};
+		FAA523762AC36CF200BD7A70 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FAA523772AC36CF200BD7A70 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FAA523802AC36CF200BD7A70 /* watchgpt2 Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAA523812AC36CF200BD7A70 /* watchgpt2_Watch_AppTests.swift */,
+			);
+			path = "watchgpt2 Watch AppTests";
+			sourceTree = "<group>";
+		};
+		FAA5238A2AC36CF200BD7A70 /* watchgpt2 Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAA5238B2AC36CF200BD7A70 /* watchgpt2_Watch_AppUITests.swift */,
+				FAA5238D2AC36CF200BD7A70 /* watchgpt2_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "watchgpt2 Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAA523442AC36CF100BD7A70 /* watchgpt2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA523952AC36CF200BD7A70 /* Build configuration list for PBXNativeTarget "watchgpt2" */;
+			buildPhases = (
+				FAA523412AC36CF100BD7A70 /* Sources */,
+				FAA523422AC36CF100BD7A70 /* Frameworks */,
+				FAA523432AC36CF100BD7A70 /* Resources */,
+				FAA523942AC36CF200BD7A70 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAA5236E2AC36CF200BD7A70 /* PBXTargetDependency */,
+			);
+			name = watchgpt2;
+			productName = watchgpt2;
+			productReference = FAA523452AC36CF100BD7A70 /* watchgpt2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAA523542AC36CF200BD7A70 /* watchgpt2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA523982AC36CF200BD7A70 /* Build configuration list for PBXNativeTarget "watchgpt2Tests" */;
+			buildPhases = (
+				FAA523512AC36CF200BD7A70 /* Sources */,
+				FAA523522AC36CF200BD7A70 /* Frameworks */,
+				FAA523532AC36CF200BD7A70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAA523572AC36CF200BD7A70 /* PBXTargetDependency */,
+			);
+			name = watchgpt2Tests;
+			productName = watchgpt2Tests;
+			productReference = FAA523552AC36CF200BD7A70 /* watchgpt2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAA5235E2AC36CF200BD7A70 /* watchgpt2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA5239B2AC36CF200BD7A70 /* Build configuration list for PBXNativeTarget "watchgpt2UITests" */;
+			buildPhases = (
+				FAA5235B2AC36CF200BD7A70 /* Sources */,
+				FAA5235C2AC36CF200BD7A70 /* Frameworks */,
+				FAA5235D2AC36CF200BD7A70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAA523612AC36CF200BD7A70 /* PBXTargetDependency */,
+			);
+			name = watchgpt2UITests;
+			productName = watchgpt2UITests;
+			productReference = FAA5235F2AC36CF200BD7A70 /* watchgpt2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		FAA5236A2AC36CF200BD7A70 /* watchgpt2 Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA523912AC36CF200BD7A70 /* Build configuration list for PBXNativeTarget "watchgpt2 Watch App" */;
+			buildPhases = (
+				FAA523672AC36CF200BD7A70 /* Sources */,
+				FAA523682AC36CF200BD7A70 /* Frameworks */,
+				FAA523692AC36CF200BD7A70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "watchgpt2 Watch App";
+			productName = "watchgpt2 Watch App";
+			productReference = FAA5236B2AC36CF200BD7A70 /* watchgpt2 Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAA5237C2AC36CF200BD7A70 /* watchgpt2 Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA5239E2AC36CF200BD7A70 /* Build configuration list for PBXNativeTarget "watchgpt2 Watch AppTests" */;
+			buildPhases = (
+				FAA523792AC36CF200BD7A70 /* Sources */,
+				FAA5237A2AC36CF200BD7A70 /* Frameworks */,
+				FAA5237B2AC36CF200BD7A70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAA5237F2AC36CF200BD7A70 /* PBXTargetDependency */,
+			);
+			name = "watchgpt2 Watch AppTests";
+			productName = "watchgpt2 Watch AppTests";
+			productReference = FAA5237D2AC36CF200BD7A70 /* watchgpt2 Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAA523862AC36CF200BD7A70 /* watchgpt2 Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA523A12AC36CF200BD7A70 /* Build configuration list for PBXNativeTarget "watchgpt2 Watch AppUITests" */;
+			buildPhases = (
+				FAA523832AC36CF200BD7A70 /* Sources */,
+				FAA523842AC36CF200BD7A70 /* Frameworks */,
+				FAA523852AC36CF200BD7A70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAA523892AC36CF200BD7A70 /* PBXTargetDependency */,
+			);
+			name = "watchgpt2 Watch AppUITests";
+			productName = "watchgpt2 Watch AppUITests";
+			productReference = FAA523872AC36CF200BD7A70 /* watchgpt2 Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAA5233D2AC36CF000BD7A70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					FAA523442AC36CF100BD7A70 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					FAA523542AC36CF200BD7A70 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = FAA523442AC36CF100BD7A70;
+					};
+					FAA5235E2AC36CF200BD7A70 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = FAA523442AC36CF100BD7A70;
+					};
+					FAA5236A2AC36CF200BD7A70 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					FAA5237C2AC36CF200BD7A70 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = FAA5236A2AC36CF200BD7A70;
+					};
+					FAA523862AC36CF200BD7A70 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = FAA5236A2AC36CF200BD7A70;
+					};
+				};
+			};
+			buildConfigurationList = FAA523402AC36CF000BD7A70 /* Build configuration list for PBXProject "watchgpt2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAA5233C2AC36CF000BD7A70;
+			productRefGroup = FAA523462AC36CF100BD7A70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAA523442AC36CF100BD7A70 /* watchgpt2 */,
+				FAA523542AC36CF200BD7A70 /* watchgpt2Tests */,
+				FAA5235E2AC36CF200BD7A70 /* watchgpt2UITests */,
+				FAA5236A2AC36CF200BD7A70 /* watchgpt2 Watch App */,
+				FAA5237C2AC36CF200BD7A70 /* watchgpt2 Watch AppTests */,
+				FAA523862AC36CF200BD7A70 /* watchgpt2 Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAA523432AC36CF100BD7A70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA523502AC36CF200BD7A70 /* Preview Assets.xcassets in Resources */,
+				FAA5234D2AC36CF200BD7A70 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA523532AC36CF200BD7A70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA5235D2AC36CF200BD7A70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA523692AC36CF200BD7A70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA523782AC36CF200BD7A70 /* Preview Assets.xcassets in Resources */,
+				FAA523752AC36CF200BD7A70 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA5237B2AC36CF200BD7A70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA523852AC36CF200BD7A70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAA523412AC36CF100BD7A70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA5234B2AC36CF100BD7A70 /* ContentView.swift in Sources */,
+				FAA523492AC36CF100BD7A70 /* watchgpt2App.swift in Sources */,
+				FA7E00A72AC3720300A262C0 /* GPT2.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA523512AC36CF200BD7A70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA5235A2AC36CF200BD7A70 /* watchgpt2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA5235B2AC36CF200BD7A70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA523642AC36CF200BD7A70 /* watchgpt2UITests.swift in Sources */,
+				FAA523662AC36CF200BD7A70 /* watchgpt2UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA523672AC36CF200BD7A70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA523732AC36CF200BD7A70 /* ContentView.swift in Sources */,
+				FAA523712AC36CF200BD7A70 /* watchgpt2App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA523792AC36CF200BD7A70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA523822AC36CF200BD7A70 /* watchgpt2_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA523832AC36CF200BD7A70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA5238C2AC36CF200BD7A70 /* watchgpt2_Watch_AppUITests.swift in Sources */,
+				FAA5238E2AC36CF200BD7A70 /* watchgpt2_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAA523572AC36CF200BD7A70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAA523442AC36CF100BD7A70 /* watchgpt2 */;
+			targetProxy = FAA523562AC36CF200BD7A70 /* PBXContainerItemProxy */;
+		};
+		FAA523612AC36CF200BD7A70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAA523442AC36CF100BD7A70 /* watchgpt2 */;
+			targetProxy = FAA523602AC36CF200BD7A70 /* PBXContainerItemProxy */;
+		};
+		FAA5236E2AC36CF200BD7A70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAA5236A2AC36CF200BD7A70 /* watchgpt2 Watch App */;
+			targetProxy = FAA5236D2AC36CF200BD7A70 /* PBXContainerItemProxy */;
+		};
+		FAA5237F2AC36CF200BD7A70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAA5236A2AC36CF200BD7A70 /* watchgpt2 Watch App */;
+			targetProxy = FAA5237E2AC36CF200BD7A70 /* PBXContainerItemProxy */;
+		};
+		FAA523892AC36CF200BD7A70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAA5236A2AC36CF200BD7A70 /* watchgpt2 Watch App */;
+			targetProxy = FAA523882AC36CF200BD7A70 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FAA5238F2AC36CF200BD7A70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAA523902AC36CF200BD7A70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		FAA523922AC36CF200BD7A70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"watchgpt2 Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = F2NV98J775;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = watchgpt2;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = sigilwen.ca.watchgpt2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sigilwen.ca.watchgpt2.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		FAA523932AC36CF200BD7A70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"watchgpt2 Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = F2NV98J775;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = watchgpt2;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = sigilwen.ca.watchgpt2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sigilwen.ca.watchgpt2.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		FAA523962AC36CF200BD7A70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"watchgpt2/Preview Content\"";
+				DEVELOPMENT_TEAM = F2NV98J775;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = watchgpt2;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sigilwen.ca.watchgpt2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAA523972AC36CF200BD7A70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"watchgpt2/Preview Content\"";
+				DEVELOPMENT_TEAM = F2NV98J775;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = watchgpt2;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sigilwen.ca.watchgpt2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAA523992AC36CF200BD7A70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F2NV98J775;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sigilwen.ca.watchgpt2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/watchgpt2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/watchgpt2";
+			};
+			name = Debug;
+		};
+		FAA5239A2AC36CF200BD7A70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F2NV98J775;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sigilwen.ca.watchgpt2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/watchgpt2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/watchgpt2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAA5239C2AC36CF200BD7A70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F2NV98J775;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sigilwen.ca.watchgpt2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = watchgpt2;
+			};
+			name = Debug;
+		};
+		FAA5239D2AC36CF200BD7A70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F2NV98J775;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sigilwen.ca.watchgpt2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = watchgpt2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAA5239F2AC36CF200BD7A70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F2NV98J775;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sigilwen.ca.watchgpt2-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/watchgpt2 Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/watchgpt2 Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		FAA523A02AC36CF200BD7A70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F2NV98J775;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sigilwen.ca.watchgpt2-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/watchgpt2 Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/watchgpt2 Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		FAA523A22AC36CF200BD7A70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F2NV98J775;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sigilwen.ca.watchgpt2-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "watchgpt2 Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		FAA523A32AC36CF200BD7A70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F2NV98J775;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sigilwen.ca.watchgpt2-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "watchgpt2 Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAA523402AC36CF000BD7A70 /* Build configuration list for PBXProject "watchgpt2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA5238F2AC36CF200BD7A70 /* Debug */,
+				FAA523902AC36CF200BD7A70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAA523912AC36CF200BD7A70 /* Build configuration list for PBXNativeTarget "watchgpt2 Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA523922AC36CF200BD7A70 /* Debug */,
+				FAA523932AC36CF200BD7A70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAA523952AC36CF200BD7A70 /* Build configuration list for PBXNativeTarget "watchgpt2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA523962AC36CF200BD7A70 /* Debug */,
+				FAA523972AC36CF200BD7A70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAA523982AC36CF200BD7A70 /* Build configuration list for PBXNativeTarget "watchgpt2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA523992AC36CF200BD7A70 /* Debug */,
+				FAA5239A2AC36CF200BD7A70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAA5239B2AC36CF200BD7A70 /* Build configuration list for PBXNativeTarget "watchgpt2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA5239C2AC36CF200BD7A70 /* Debug */,
+				FAA5239D2AC36CF200BD7A70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAA5239E2AC36CF200BD7A70 /* Build configuration list for PBXNativeTarget "watchgpt2 Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA5239F2AC36CF200BD7A70 /* Debug */,
+				FAA523A02AC36CF200BD7A70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAA523A12AC36CF200BD7A70 /* Build configuration list for PBXNativeTarget "watchgpt2 Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA523A22AC36CF200BD7A70 /* Debug */,
+				FAA523A32AC36CF200BD7A70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAA5233D2AC36CF000BD7A70 /* Project object */;
+}
