@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FA7E00A72AC3720300A262C0 /* GPT2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7E00A62AC3720300A262C0 /* GPT2.swift */; };
+		FA7E00A92AC3728800A262C0 /* GPT2Tokenizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7E00A82AC3728800A262C0 /* GPT2Tokenizer.swift */; };
 		FAA523492AC36CF100BD7A70 /* watchgpt2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA523482AC36CF100BD7A70 /* watchgpt2App.swift */; };
 		FAA5234B2AC36CF100BD7A70 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5234A2AC36CF100BD7A70 /* ContentView.swift */; };
 		FAA5234D2AC36CF200BD7A70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA5234C2AC36CF200BD7A70 /* Assets.xcassets */; };
@@ -79,6 +80,7 @@
 
 /* Begin PBXFileReference section */
 		FA7E00A62AC3720300A262C0 /* GPT2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPT2.swift; sourceTree = "<group>"; };
+		FA7E00A82AC3728800A262C0 /* GPT2Tokenizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPT2Tokenizer.swift; sourceTree = "<group>"; };
 		FAA523452AC36CF100BD7A70 /* watchgpt2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = watchgpt2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA523482AC36CF100BD7A70 /* watchgpt2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watchgpt2App.swift; sourceTree = "<group>"; };
 		FAA5234A2AC36CF100BD7A70 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -151,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				FA7E00A62AC3720300A262C0 /* GPT2.swift */,
+				FA7E00A82AC3728800A262C0 /* GPT2Tokenizer.swift */,
 			);
 			path = GPT2;
 			sourceTree = "<group>";
@@ -478,6 +481,7 @@
 			files = (
 				FAA5234B2AC36CF100BD7A70 /* ContentView.swift in Sources */,
 				FAA523492AC36CF100BD7A70 /* watchgpt2App.swift in Sources */,
+				FA7E00A92AC3728800A262C0 /* GPT2Tokenizer.swift in Sources */,
 				FA7E00A72AC3720300A262C0 /* GPT2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
