@@ -11,7 +11,7 @@ import SwiftUI
 struct watchgpt2_Watch_AppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            GPT2View()
         }
     }
 }

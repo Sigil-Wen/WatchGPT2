@@ -7,12 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FA7E00A72AC3720300A262C0 /* GPT2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7E00A62AC3720300A262C0 /* GPT2.swift */; };
-		FA7E00A92AC3728800A262C0 /* GPT2Tokenizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7E00A82AC3728800A262C0 /* GPT2Tokenizer.swift */; };
-		FA7E00AB2AC372C800A262C0 /* GPT2ByteEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7E00AA2AC372C800A262C0 /* GPT2ByteEncoder.swift */; };
-		FA7E00AD2AC372E400A262C0 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7E00AC2AC372E400A262C0 /* Utils.swift */; };
-		FA7E00B12AC3737D00A262C0 /* MLMultiArray+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7E00B02AC3737D00A262C0 /* MLMultiArray+Utils.swift */; };
-		FA7E00B32AC373A100A262C0 /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7E00B22AC373A100A262C0 /* Math.swift */; };
+		FA2CE0432AC408E800114294 /* GPT2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2CE0422AC408E800114294 /* GPT2View.swift */; };
+		FA7E00B72AC377A300A262C0 /* GPT2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7E00B62AC377A300A262C0 /* GPT2View.swift */; };
 		FAA523492AC36CF100BD7A70 /* watchgpt2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA523482AC36CF100BD7A70 /* watchgpt2App.swift */; };
 		FAA5234B2AC36CF100BD7A70 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5234A2AC36CF100BD7A70 /* ContentView.swift */; };
 		FAA5234D2AC36CF200BD7A70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA5234C2AC36CF200BD7A70 /* Assets.xcassets */; };
@@ -28,6 +24,60 @@
 		FAA523822AC36CF200BD7A70 /* watchgpt2_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA523812AC36CF200BD7A70 /* watchgpt2_Watch_AppTests.swift */; };
 		FAA5238C2AC36CF200BD7A70 /* watchgpt2_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5238B2AC36CF200BD7A70 /* watchgpt2_Watch_AppUITests.swift */; };
 		FAA5238E2AC36CF200BD7A70 /* watchgpt2_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA5238D2AC36CF200BD7A70 /* watchgpt2_Watch_AppUITestsLaunchTests.swift */; };
+		FAE9DD6A2AC409C500313244 /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE9DD612AC409C500313244 /* Math.swift */; };
+		FAE9DD6B2AC409C500313244 /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE9DD612AC409C500313244 /* Math.swift */; };
+		FAE9DD6C2AC409C500313244 /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE9DD612AC409C500313244 /* Math.swift */; };
+		FAE9DD6D2AC409C500313244 /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE9DD612AC409C500313244 /* Math.swift */; };
+		FAE9DD6E2AC409C500313244 /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE9DD612AC409C500313244 /* Math.swift */; };
+		FAE9DD6F2AC409C500313244 /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE9DD612AC409C500313244 /* Math.swift */; };
+		FAE9DD702AC409C500313244 /* GPT2ByteEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE9DD622AC409C500313244 /* GPT2ByteEncoder.swift */; };
+		FAE9DD712AC409C500313244 /* GPT2ByteEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE9DD622AC409C500313244 /* GPT2ByteEncoder.swift */; };
+		FAE9DD722AC409C500313244 /* GPT2ByteEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE9DD622AC409C500313244 /* GPT2ByteEncoder.swift */; };
+		FAE9DD732AC409C500313244 /* GPT2ByteEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE9DD622AC409C500313244 /* GPT2ByteEncoder.swift */; };
+		FAE9DD742AC409C500313244 /* GPT2ByteEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE9DD622AC409C500313244 /* GPT2ByteEncoder.swift */; };
+		FAE9DD752AC409C500313244 /* GPT2ByteEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE9DD622AC409C500313244 /* GPT2ByteEncoder.swift */; };
+		FAE9DD762AC409C500313244 /* gpt2-merges.txt in Resources */ = {isa = PBXBuildFile; fileRef = FAE9DD632AC409C500313244 /* gpt2-merges.txt */; };
+		FAE9DD772AC409C500313244 /* gpt2-merges.txt in Resources */ = {isa = PBXBuildFile; fileRef = FAE9DD632AC409C500313244 /* gpt2-merges.txt */; };
+		FAE9DD782AC409C500313244 /* gpt2-merges.txt in Resources */ = {isa = PBXBuildFile; fileRef = FAE9DD632AC409C500313244 /* gpt2-merges.txt */; };
+		FAE9DD792AC409C500313244 /* gpt2-merges.txt in Resources */ = {isa = PBXBuildFile; fileRef = FAE9DD632AC409C500313244 /* gpt2-merges.txt */; };
+		FAE9DD7A2AC409C500313244 /* gpt2-merges.txt in Resources */ = {isa = PBXBuildFile; fileRef = FAE9DD632AC409C500313244 /* gpt2-merges.txt */; };
+		FAE9DD7B2AC409C500313244 /* gpt2-merges.txt in Resources */ = {isa = PBXBuildFile; fileRef = FAE9DD632AC409C500313244 /* gpt2-merges.txt */; };
+		FAE9DD7C2AC409C500313244 /* MLMultiArray+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE9DD642AC409C500313244 /* MLMultiArray+Utils.swift */; };
+		FAE9DD7D2AC409C500313244 /* MLMultiArray+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE9DD642AC409C500313244 /* MLMultiArray+Utils.swift */; };
+		FAE9DD7E2AC409C500313244 /* MLMultiArray+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE9DD642AC409C500313244 /* MLMultiArray+Utils.swift */; };
+		FAE9DD7F2AC409C500313244 /* MLMultiArray+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE9DD642AC409C500313244 /* MLMultiArray+Utils.swift */; };
+		FAE9DD802AC409C500313244 /* MLMultiArray+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE9DD642AC409C500313244 /* MLMultiArray+Utils.swift */; };
+		FAE9DD812AC409C500313244 /* MLMultiArray+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE9DD642AC409C500313244 /* MLMultiArray+Utils.swift */; };
+		FAE9DD822AC409C500313244 /* gpt2-vocab.json in Resources */ = {isa = PBXBuildFile; fileRef = FAE9DD652AC409C500313244 /* gpt2-vocab.json */; };
+		FAE9DD832AC409C500313244 /* gpt2-vocab.json in Resources */ = {isa = PBXBuildFile; fileRef = FAE9DD652AC409C500313244 /* gpt2-vocab.json */; };
+		FAE9DD842AC409C500313244 /* gpt2-vocab.json in Resources */ = {isa = PBXBuildFile; fileRef = FAE9DD652AC409C500313244 /* gpt2-vocab.json */; };
+		FAE9DD852AC409C500313244 /* gpt2-vocab.json in Resources */ = {isa = PBXBuildFile; fileRef = FAE9DD652AC409C500313244 /* gpt2-vocab.json */; };
+		FAE9DD862AC409C500313244 /* gpt2-vocab.json in Resources */ = {isa = PBXBuildFile; fileRef = FAE9DD652AC409C500313244 /* gpt2-vocab.json */; };
+		FAE9DD872AC409C500313244 /* gpt2-vocab.json in Resources */ = {isa = PBXBuildFile; fileRef = FAE9DD652AC409C500313244 /* gpt2-vocab.json */; };
+		FAE9DD882AC409C500313244 /* GPT2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE9DD662AC409C500313244 /* GPT2.swift */; };
+		FAE9DD892AC409C500313244 /* GPT2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE9DD662AC409C500313244 /* GPT2.swift */; };
+		FAE9DD8A2AC409C500313244 /* GPT2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE9DD662AC409C500313244 /* GPT2.swift */; };
+		FAE9DD8B2AC409C500313244 /* GPT2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE9DD662AC409C500313244 /* GPT2.swift */; };
+		FAE9DD8C2AC409C500313244 /* GPT2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE9DD662AC409C500313244 /* GPT2.swift */; };
+		FAE9DD8D2AC409C500313244 /* GPT2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE9DD662AC409C500313244 /* GPT2.swift */; };
+		FAE9DD8E2AC409C500313244 /* GPT2Tokenizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE9DD672AC409C500313244 /* GPT2Tokenizer.swift */; };
+		FAE9DD8F2AC409C500313244 /* GPT2Tokenizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE9DD672AC409C500313244 /* GPT2Tokenizer.swift */; };
+		FAE9DD902AC409C500313244 /* GPT2Tokenizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE9DD672AC409C500313244 /* GPT2Tokenizer.swift */; };
+		FAE9DD912AC409C500313244 /* GPT2Tokenizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE9DD672AC409C500313244 /* GPT2Tokenizer.swift */; };
+		FAE9DD922AC409C500313244 /* GPT2Tokenizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE9DD672AC409C500313244 /* GPT2Tokenizer.swift */; };
+		FAE9DD932AC409C500313244 /* GPT2Tokenizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE9DD672AC409C500313244 /* GPT2Tokenizer.swift */; };
+		FAE9DD942AC409C500313244 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE9DD682AC409C500313244 /* Utils.swift */; };
+		FAE9DD952AC409C500313244 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE9DD682AC409C500313244 /* Utils.swift */; };
+		FAE9DD962AC409C500313244 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE9DD682AC409C500313244 /* Utils.swift */; };
+		FAE9DD972AC409C500313244 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE9DD682AC409C500313244 /* Utils.swift */; };
+		FAE9DD982AC409C500313244 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE9DD682AC409C500313244 /* Utils.swift */; };
+		FAE9DD992AC409C500313244 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE9DD682AC409C500313244 /* Utils.swift */; };
+		FAE9DD9A2AC409C500313244 /* distilgpt2-64-6.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FAE9DD692AC409C500313244 /* distilgpt2-64-6.mlmodel */; };
+		FAE9DD9B2AC409C500313244 /* distilgpt2-64-6.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FAE9DD692AC409C500313244 /* distilgpt2-64-6.mlmodel */; };
+		FAE9DD9C2AC409C500313244 /* distilgpt2-64-6.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FAE9DD692AC409C500313244 /* distilgpt2-64-6.mlmodel */; };
+		FAE9DD9D2AC409C500313244 /* distilgpt2-64-6.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FAE9DD692AC409C500313244 /* distilgpt2-64-6.mlmodel */; };
+		FAE9DD9E2AC409C500313244 /* distilgpt2-64-6.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FAE9DD692AC409C500313244 /* distilgpt2-64-6.mlmodel */; };
+		FAE9DD9F2AC409C500313244 /* distilgpt2-64-6.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FAE9DD692AC409C500313244 /* distilgpt2-64-6.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,12 +133,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		FA7E00A62AC3720300A262C0 /* GPT2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPT2.swift; sourceTree = "<group>"; };
-		FA7E00A82AC3728800A262C0 /* GPT2Tokenizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPT2Tokenizer.swift; sourceTree = "<group>"; };
-		FA7E00AA2AC372C800A262C0 /* GPT2ByteEncoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPT2ByteEncoder.swift; sourceTree = "<group>"; };
-		FA7E00AC2AC372E400A262C0 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
-		FA7E00B02AC3737D00A262C0 /* MLMultiArray+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MLMultiArray+Utils.swift"; sourceTree = "<group>"; };
-		FA7E00B22AC373A100A262C0 /* Math.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
+		FA2CE0422AC408E800114294 /* GPT2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPT2View.swift; sourceTree = "<group>"; };
+		FA7E00B62AC377A300A262C0 /* GPT2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPT2View.swift; sourceTree = "<group>"; };
 		FAA523452AC36CF100BD7A70 /* watchgpt2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = watchgpt2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA523482AC36CF100BD7A70 /* watchgpt2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watchgpt2App.swift; sourceTree = "<group>"; };
 		FAA5234A2AC36CF100BD7A70 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -109,6 +155,15 @@
 		FAA523872AC36CF200BD7A70 /* watchgpt2 Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "watchgpt2 Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAA5238B2AC36CF200BD7A70 /* watchgpt2_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watchgpt2_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		FAA5238D2AC36CF200BD7A70 /* watchgpt2_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watchgpt2_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FAE9DD612AC409C500313244 /* Math.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
+		FAE9DD622AC409C500313244 /* GPT2ByteEncoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPT2ByteEncoder.swift; sourceTree = "<group>"; };
+		FAE9DD632AC409C500313244 /* gpt2-merges.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "gpt2-merges.txt"; sourceTree = "<group>"; };
+		FAE9DD642AC409C500313244 /* MLMultiArray+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MLMultiArray+Utils.swift"; sourceTree = "<group>"; };
+		FAE9DD652AC409C500313244 /* gpt2-vocab.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "gpt2-vocab.json"; sourceTree = "<group>"; };
+		FAE9DD662AC409C500313244 /* GPT2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPT2.swift; sourceTree = "<group>"; };
+		FAE9DD672AC409C500313244 /* GPT2Tokenizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GPT2Tokenizer.swift; sourceTree = "<group>"; };
+		FAE9DD682AC409C500313244 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		FAE9DD692AC409C500313244 /* distilgpt2-64-6.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "distilgpt2-64-6.mlmodel"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,19 +212,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FA7E00A52AC371EA00A262C0 /* GPT2 */ = {
-			isa = PBXGroup;
-			children = (
-				FA7E00A62AC3720300A262C0 /* GPT2.swift */,
-				FA7E00A82AC3728800A262C0 /* GPT2Tokenizer.swift */,
-				FA7E00AC2AC372E400A262C0 /* Utils.swift */,
-				FA7E00B02AC3737D00A262C0 /* MLMultiArray+Utils.swift */,
-				FA7E00AA2AC372C800A262C0 /* GPT2ByteEncoder.swift */,
-				FA7E00B22AC373A100A262C0 /* Math.swift */,
-			);
-			path = GPT2;
-			sourceTree = "<group>";
-		};
 		FAA5233C2AC36CF000BD7A70 = {
 			isa = PBXGroup;
 			children = (
@@ -201,7 +243,7 @@
 			children = (
 				FAA523482AC36CF100BD7A70 /* watchgpt2App.swift */,
 				FAA5234A2AC36CF100BD7A70 /* ContentView.swift */,
-				FA7E00A52AC371EA00A262C0 /* GPT2 */,
+				FA7E00B62AC377A300A262C0 /* GPT2View.swift */,
 				FAA5234C2AC36CF200BD7A70 /* Assets.xcassets */,
 				FAA5234E2AC36CF200BD7A70 /* Preview Content */,
 			);
@@ -238,6 +280,8 @@
 			children = (
 				FAA523702AC36CF200BD7A70 /* watchgpt2App.swift */,
 				FAA523722AC36CF200BD7A70 /* ContentView.swift */,
+				FA2CE0422AC408E800114294 /* GPT2View.swift */,
+				FAE9DD602AC409C500313244 /* GPT2 */,
 				FAA523742AC36CF200BD7A70 /* Assets.xcassets */,
 				FAA523762AC36CF200BD7A70 /* Preview Content */,
 			);
@@ -267,6 +311,22 @@
 				FAA5238D2AC36CF200BD7A70 /* watchgpt2_Watch_AppUITestsLaunchTests.swift */,
 			);
 			path = "watchgpt2 Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		FAE9DD602AC409C500313244 /* GPT2 */ = {
+			isa = PBXGroup;
+			children = (
+				FAE9DD612AC409C500313244 /* Math.swift */,
+				FAE9DD622AC409C500313244 /* GPT2ByteEncoder.swift */,
+				FAE9DD632AC409C500313244 /* gpt2-merges.txt */,
+				FAE9DD642AC409C500313244 /* MLMultiArray+Utils.swift */,
+				FAE9DD652AC409C500313244 /* gpt2-vocab.json */,
+				FAE9DD662AC409C500313244 /* GPT2.swift */,
+				FAE9DD672AC409C500313244 /* GPT2Tokenizer.swift */,
+				FAE9DD682AC409C500313244 /* Utils.swift */,
+				FAE9DD692AC409C500313244 /* distilgpt2-64-6.mlmodel */,
+			);
+			path = GPT2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -442,7 +502,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAE9DD822AC409C500313244 /* gpt2-vocab.json in Resources */,
 				FAA523502AC36CF200BD7A70 /* Preview Assets.xcassets in Resources */,
+				FAE9DD762AC409C500313244 /* gpt2-merges.txt in Resources */,
 				FAA5234D2AC36CF200BD7A70 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -451,6 +513,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAE9DD832AC409C500313244 /* gpt2-vocab.json in Resources */,
+				FAE9DD772AC409C500313244 /* gpt2-merges.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,6 +522,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAE9DD842AC409C500313244 /* gpt2-vocab.json in Resources */,
+				FAE9DD782AC409C500313244 /* gpt2-merges.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,7 +531,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAE9DD852AC409C500313244 /* gpt2-vocab.json in Resources */,
 				FAA523782AC36CF200BD7A70 /* Preview Assets.xcassets in Resources */,
+				FAE9DD792AC409C500313244 /* gpt2-merges.txt in Resources */,
 				FAA523752AC36CF200BD7A70 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -474,6 +542,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAE9DD862AC409C500313244 /* gpt2-vocab.json in Resources */,
+				FAE9DD7A2AC409C500313244 /* gpt2-merges.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,6 +551,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAE9DD872AC409C500313244 /* gpt2-vocab.json in Resources */,
+				FAE9DD7B2AC409C500313244 /* gpt2-merges.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,14 +563,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA7E00B12AC3737D00A262C0 /* MLMultiArray+Utils.swift in Sources */,
+				FA7E00B72AC377A300A262C0 /* GPT2View.swift in Sources */,
+				FAE9DD9A2AC409C500313244 /* distilgpt2-64-6.mlmodel in Sources */,
 				FAA5234B2AC36CF100BD7A70 /* ContentView.swift in Sources */,
+				FAE9DD942AC409C500313244 /* Utils.swift in Sources */,
 				FAA523492AC36CF100BD7A70 /* watchgpt2App.swift in Sources */,
-				FA7E00A92AC3728800A262C0 /* GPT2Tokenizer.swift in Sources */,
-				FA7E00A72AC3720300A262C0 /* GPT2.swift in Sources */,
-				FA7E00AB2AC372C800A262C0 /* GPT2ByteEncoder.swift in Sources */,
-				FA7E00AD2AC372E400A262C0 /* Utils.swift in Sources */,
-				FA7E00B32AC373A100A262C0 /* Math.swift in Sources */,
+				FAE9DD6A2AC409C500313244 /* Math.swift in Sources */,
+				FAE9DD7C2AC409C500313244 /* MLMultiArray+Utils.swift in Sources */,
+				FAE9DD702AC409C500313244 /* GPT2ByteEncoder.swift in Sources */,
+				FAE9DD8E2AC409C500313244 /* GPT2Tokenizer.swift in Sources */,
+				FAE9DD882AC409C500313244 /* GPT2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -506,7 +580,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAE9DD8F2AC409C500313244 /* GPT2Tokenizer.swift in Sources */,
+				FAE9DD712AC409C500313244 /* GPT2ByteEncoder.swift in Sources */,
+				FAE9DD892AC409C500313244 /* GPT2.swift in Sources */,
+				FAE9DD952AC409C500313244 /* Utils.swift in Sources */,
 				FAA5235A2AC36CF200BD7A70 /* watchgpt2Tests.swift in Sources */,
+				FAE9DD7D2AC409C500313244 /* MLMultiArray+Utils.swift in Sources */,
+				FAE9DD6B2AC409C500313244 /* Math.swift in Sources */,
+				FAE9DD9B2AC409C500313244 /* distilgpt2-64-6.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,8 +595,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAE9DD7E2AC409C500313244 /* MLMultiArray+Utils.swift in Sources */,
+				FAE9DD902AC409C500313244 /* GPT2Tokenizer.swift in Sources */,
 				FAA523642AC36CF200BD7A70 /* watchgpt2UITests.swift in Sources */,
+				FAE9DD8A2AC409C500313244 /* GPT2.swift in Sources */,
+				FAE9DD722AC409C500313244 /* GPT2ByteEncoder.swift in Sources */,
+				FAE9DD9C2AC409C500313244 /* distilgpt2-64-6.mlmodel in Sources */,
 				FAA523662AC36CF200BD7A70 /* watchgpt2UITestsLaunchTests.swift in Sources */,
+				FAE9DD6C2AC409C500313244 /* Math.swift in Sources */,
+				FAE9DD962AC409C500313244 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -523,8 +611,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA2CE0432AC408E800114294 /* GPT2View.swift in Sources */,
+				FAE9DD9D2AC409C500313244 /* distilgpt2-64-6.mlmodel in Sources */,
 				FAA523732AC36CF200BD7A70 /* ContentView.swift in Sources */,
+				FAE9DD972AC409C500313244 /* Utils.swift in Sources */,
 				FAA523712AC36CF200BD7A70 /* watchgpt2App.swift in Sources */,
+				FAE9DD6D2AC409C500313244 /* Math.swift in Sources */,
+				FAE9DD7F2AC409C500313244 /* MLMultiArray+Utils.swift in Sources */,
+				FAE9DD732AC409C500313244 /* GPT2ByteEncoder.swift in Sources */,
+				FAE9DD912AC409C500313244 /* GPT2Tokenizer.swift in Sources */,
+				FAE9DD8B2AC409C500313244 /* GPT2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -532,7 +628,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAE9DD922AC409C500313244 /* GPT2Tokenizer.swift in Sources */,
+				FAE9DD742AC409C500313244 /* GPT2ByteEncoder.swift in Sources */,
+				FAE9DD8C2AC409C500313244 /* GPT2.swift in Sources */,
+				FAE9DD982AC409C500313244 /* Utils.swift in Sources */,
 				FAA523822AC36CF200BD7A70 /* watchgpt2_Watch_AppTests.swift in Sources */,
+				FAE9DD802AC409C500313244 /* MLMultiArray+Utils.swift in Sources */,
+				FAE9DD6E2AC409C500313244 /* Math.swift in Sources */,
+				FAE9DD9E2AC409C500313244 /* distilgpt2-64-6.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -540,8 +643,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAE9DD812AC409C500313244 /* MLMultiArray+Utils.swift in Sources */,
+				FAE9DD932AC409C500313244 /* GPT2Tokenizer.swift in Sources */,
 				FAA5238C2AC36CF200BD7A70 /* watchgpt2_Watch_AppUITests.swift in Sources */,
+				FAE9DD8D2AC409C500313244 /* GPT2.swift in Sources */,
+				FAE9DD752AC409C500313244 /* GPT2ByteEncoder.swift in Sources */,
+				FAE9DD9F2AC409C500313244 /* distilgpt2-64-6.mlmodel in Sources */,
 				FAA5238E2AC36CF200BD7A70 /* watchgpt2_Watch_AppUITestsLaunchTests.swift in Sources */,
+				FAE9DD6F2AC409C500313244 /* Math.swift in Sources */,
+				FAE9DD992AC409C500313244 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
